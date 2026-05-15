@@ -9,7 +9,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
   base: '/text-to-image',
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
   },
   plugins: [vue(), vueJsx(), vueDevTools()],
   resolve: {
